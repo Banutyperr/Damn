@@ -2,7 +2,7 @@
 
 int main(void){
     
-void scalarMultiply (int nRaws,int nColumns,int matrix[nRaws][nColumns], int scalar);
+void scalarMultiply (int nRaws,int nColumns,int matrix[nRaws][nColumns], int scalar);//were 
 void displayMatrix (int nRaws,int nColumns,int matrix[nRaws][nColumns]);
 int sampleMatrix[3][5] =
 {
@@ -11,7 +11,7 @@ int sampleMatrix[3][5] =
 { -2, 1, 2, 4, 9 }
 };
 printf ("Original matrix:\n");
-displayMatrix (3,5,sampleMatrix);
+displayMatrix (3,5,sampleMatrix);//this is how you call afunction that does not return anything
 
 scalarMultiply (3,5,sampleMatrix, 2);
 printf ("\nMultiplied by 2:\n");
@@ -24,7 +24,7 @@ displayMatrix (3,5,sampleMatrix);
 }
 
 
-void scalarMultiply (int nRaws,int nColumns,int matrix[nRaws][nColumns], int scalar){
+void scalarMultiply (int nRaws,int nColumns,int matrix[nRaws][nColumns], int scalar){//this function just multiplies every element of an array by come constant
     int raw,column;
     for (raw=0;raw<nRaws;++raw){
         for (column=0;column<nColumns;++column)
@@ -35,7 +35,7 @@ void scalarMultiply (int nRaws,int nColumns,int matrix[nRaws][nColumns], int sca
 
 
 
-void displayMatrix (int nRaws,int nColumns,int matrix[nRaws][nColumns]){
+void displayMatrix (int nRaws,int nColumns,int matrix[nRaws][nColumns]){ //this function displays elements of an array 
     int raw,column;
     for (raw=0;raw<nRaws;++raw){
         for (column=0;column<nColumns;++column)
