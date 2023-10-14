@@ -15,11 +15,10 @@ void sort(float array[],int num){//void cuz we will not need to return anything 
 int main(void){
     void sort(float array[],int num);
     int i;
-    float Shams[16]={ 34.0, -5.0, 6.0, 0.0, 12.0, 100.0, 56.0, 22.0,
-44.0, -3.0, -9.0, 12.0, 17.0, 22.0, 6.0, 11.0 };//i am a leo,sorry(ghost emoji)
-sort(Shams,16);
+    float s[16]={ 34.0, -5.0, 6.0, 0.0, 12.0, 100.0, 56.0, 22.0,
+44.0, -3.0, -9.0, 12.0, 17.0, 22.0, 6.0, 11.0 };
 for(i=0;i<16;++i)
-printf("%.2f \n",Shams[i]);
+printf("%.2f \n",s[i]);
 
 return 0;
     
