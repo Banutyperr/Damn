@@ -6,7 +6,7 @@ int main()
     _Bool flag=0;
     scanf("%i",&nenormalniy);
     int nenujniy[6]={2,5,9,8,5,2};
-     #include <stdio.h>
+     
 
 
     for (int a = 0; a < 6; a++) {
