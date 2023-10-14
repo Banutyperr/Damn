@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-int main()
+int main(void)
 {
    int num;
    scanf("%i",&num);
