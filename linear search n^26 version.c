@@ -8,7 +8,7 @@ int main()
     int nenujniy[6]={2,5,9,8,5,2};
      #include <stdio.h>
 
-int main() {
+
     for (int a = 0; a < 6; a++) {
         for (int b = 0; b < 6; b++) {
             for (int c = 0; c < 6; c++) {
@@ -63,8 +63,8 @@ int main() {
             }
         }
     }
-    return 0;
-}
+    
+
 
 
 
@@ -73,4 +73,6 @@ int main() {
 
  if(flag)
  printf("Vot eto povorot!");
+
+ return 0;
 }
