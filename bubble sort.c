@@ -1,9 +1,8 @@
 #include <stdio.h>
 void sort(float array[],int num){//void cuz we will not need to return anything instead we will just change the array and print out different values of it
-    int i,j;
     float temp;
-    for (i=0;i<num-1;++i){ //num-1 cuz we will not need to check the last element
-        for (j=i+1;j<num;++j){
+    for (int i=0;i<num-1;++i){ //num-1 cuz we will not need to check the last element
+        for (int j=i+1;j<num;++j){
             if (array[i]>array[j]){
                 temp=array[i];
                 array[i]=array[j];
