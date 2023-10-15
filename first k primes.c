@@ -4,14 +4,14 @@
 int main(void){
     int k;
     scanf("%i",&k);
-    int Prime[k],i,p,index=2;
+    int Prime[k],index=2;
     bool IsPrime;
     Prime[0]=2;
     Prime[1]=3;
     
-    for (p = 5; p < k; p = p + 2 ){
+    for (int p = 5; p < k; p = p + 2 ){
     IsPrime=true;
-    for (i=1;IsPrime && p / Prime[i] >= Prime[i] ;++i)
+    for (int i=1;IsPrime && p / Prime[i] >= Prime[i] ;++i)
     if (p % Prime[i] == 0)
     IsPrime=false;
     
@@ -20,7 +20,7 @@ int main(void){
     ++index;}}
         
     
-    for (i=0 ; i < index ;++i)
+    for (int i=0 ; i < index ;++i)
     printf("%3i \n",Prime[i]);
     
     return 0;
