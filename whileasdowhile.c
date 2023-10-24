@@ -16,10 +16,5 @@ int main(void){
     
     printf("---------------------------------------\n");
     
-    while(s<20 && (s=a+b) && printf("%i\n",s)){
-        
-        ++a;
-        ++b;
-       
-    }
+    while((s=a+b) && ++a && ++b && printf("%i\n",s)&& s<20){}
 }
