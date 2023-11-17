@@ -110,6 +110,6 @@ jdfjafjkwje
 oewkdowokd  
 dkewkew
 
-footnote 123 [^1]
+footnote 123[^1]
 
 ---
