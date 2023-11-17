@@ -128,7 +128,7 @@ to - do
 
 
 
-no idea  
+no idea
 : 2 words ,idea is a noun in singular form !
 
 
