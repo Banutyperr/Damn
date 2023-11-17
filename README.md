@@ -7,6 +7,7 @@ _august slipped away_<br>
 __i remember thinking i had you__<br>
 ~~bottle of wine~~<br>
 * * *
+[^1]:footnote 123
 1.im only 17
 2.i don't know anything
  1. but i can see
@@ -95,7 +96,7 @@ james get in  heyy
 
 
 
-[^1]:footnote 123
+
 
 
 
