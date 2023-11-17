@@ -129,7 +129,7 @@ to - do
 
 -[ ] sleep  
 -[ ] eat  
--[ x ] love  
+-[x] love  
 -[ ] pray  
 -[ ]think
 ---
