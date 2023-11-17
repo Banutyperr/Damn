@@ -11,10 +11,10 @@ int main (void )
 {
     struct time timeUpdate ( struct time now);
     struct time currentTime ,nextTime;
-    printf("Enter the time (hh mm ss): ");
-    scanf ("%i%i%i",&currentTime.hour ,&currentTime.minutes ,&currentTime.seconds );
+    printf("Enter the time (hh:mm:ss): ");
+    scanf ("%i:%i:%i",&currentTime.hour ,&currentTime.minutes ,&currentTime.seconds );
     nextTime = timeUpdate(currentTime);
-    printf ("Updated time is %.2i %.2i %.2i",nextTime.hour,nextTime.minutes,nextTime.seconds);
+    printf ("Updated time is %.2i:%.2i:%.2i.",nextTime.hour,nextTime.minutes,nextTime.seconds);
     return 0;
 
 }
