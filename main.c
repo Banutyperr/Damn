@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdbool.h>   
-
+ 
 struct date
 {
     int month;
