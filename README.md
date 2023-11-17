@@ -1,6 +1,6 @@
 Just for fun
 ============
-Do not get it seriously
+Do not get it seriously[^1]
 -----------------------
 ### Wispers of are you sure  
 _august slipped away_<br>
