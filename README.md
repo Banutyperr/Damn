@@ -1,4 +1,4 @@
-<span style="color: 0000FF;">Just for fun</span>
+\textcolor{blue}{Just for fun}
 ============
 Do not get it seriously[^1]
 -----------------------
