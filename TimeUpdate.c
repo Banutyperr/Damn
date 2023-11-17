@@ -1,7 +1,7 @@
 #include <stdio.h>
 struct time
 {
-    int hour;
+    int hour; 
     int minutes;
     int seconds;
 
