@@ -13,7 +13,7 @@ __i remember thinking i had you__<br>
 wassup? :ghost:
 
 1. <ins>im only 17
-2. 2.i don't know anything
+2. i don't know anything
  1. but i can see
  2. it was never mine
 * never mine to lose
