@@ -129,7 +129,10 @@ to - do
 
 
 no idea
-: 2 words ,idea is a noun in singular form !
+: 2 words ,idea is a noun in singular form !  
+First Term
+: This is the definition of the first term.
+
 
 
  
