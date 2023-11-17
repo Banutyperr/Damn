@@ -12,7 +12,7 @@ __i remember thinking i had you__<br>
   
 wassup? :ghost:
 
-1. im only 17
+1. <ins>im only 17<\ins>
 2. 2.i don't know anything
  1. but i can see
  2. it was never mine
