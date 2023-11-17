@@ -118,4 +118,17 @@ dkewkew
 
 
 
+
+
+
+
+
+
+
+to - do 
+-[] sleep  
+-[] eat  
+-[x] love  
+-[] pray  
+-[]think
 ---
