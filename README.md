@@ -1,4 +1,4 @@
-\textcolor{Just for fun}{0000FF}
+Just for fun
 ============
 Do not get it seriously[^1]
 -----------------------
