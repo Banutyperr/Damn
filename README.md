@@ -114,14 +114,7 @@ james get in  heyy
 
 jdfjafjkwje  
 oewkdowokd  
-dkewkew  
-
-
-
-
-
-
-
+dkewkew    
 
 
 
@@ -132,4 +125,12 @@ to - do
 -[x] love  
 -[ ] pray  
 -[ ]think
+
+
+
+
+
+
+
+
 ---
