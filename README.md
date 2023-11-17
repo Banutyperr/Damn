@@ -95,6 +95,7 @@ james get in  heyy
 
 
 
+[^1]:footnote 123
 
 
 
@@ -111,6 +112,5 @@ oewkdowokd
 dkewkew  
 
 
-[^1]:footnote 123
 
 ---
