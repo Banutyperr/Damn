@@ -1,4 +1,4 @@
-<span style="color: blue;">Just for fun</span>
+<span style="color: 0000FF;">Just for fun</span>
 ============
 Do not get it seriously[^1]
 -----------------------
