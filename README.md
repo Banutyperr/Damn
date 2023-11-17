@@ -7,7 +7,7 @@ _august slipped away_<br>
 __i remember thinking i had you__<br>
 ~~bottle of wine~~<br>
 * * *
-[^1]:footnote 123  
+[^1]:[cling cling](https://www.youtube.com/watch?v=HDN0Z9-yJmM)
 
 1.im only 17
 2.i don't know anything
