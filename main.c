@@ -12,7 +12,7 @@ struct date dateUpdate (struct date today)
     struct date tomorrow;
     int numberIfDays(struct date d);
 
-    if (today.day != numberOfDays(today)) { //ordinary day
+    if (today.day != numberOfDays(today)) { //ordinary day 
         tomorrow.day = today.day+1 ;
         tomorrow.month = today.month;
         tomorrow.year = today.year;
