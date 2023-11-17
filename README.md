@@ -1,1 +1,2 @@
-# Some silly programs with C..
+just for fun
+============
