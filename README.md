@@ -7,10 +7,10 @@ _august slipped away_<br>
 __i remember thinking i had you__<br>
 ~~bottle of wine~~<br>
 * * *
-[^1]:[cling cling](https://www.youtube.com/watch?v=HDN0Z9-yJmM)
+[^1]:[cling cling](https://www.youtube.com/watch?v=HDN0Z9-yJmM)  
+emoji :ghost:
 
-1. l == im only 17 ==.  
-   
+1. im only 17 
 2.i don't know anything
  1. but i can see
  2. it was never mine
