@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int P[150];
+    int n ;
+    scanf("%i",&n);
+    int P[n];
     int i = 2 ;
-    for(int n = 0 ; n<150 ; ++n)
-        P[n]=0;
+    for(int m = 0 ; m < n  ; ++n)
+        P[m]=0;
     while (i<=150){
         if (P[i]==0)
             printf("%i is prime \n",i);
