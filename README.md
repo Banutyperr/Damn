@@ -124,7 +124,6 @@ to - do
 - [ ] eat  
 - [ ] love  
 - [ ] pray  
-- [ ] think
 - [x] exist
 
 
