@@ -1,4 +1,4 @@
-Just for fun
+[Just for fun](#blue)
 ============
 Do not get it seriously[^1]
 -----------------------
