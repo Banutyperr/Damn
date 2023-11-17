@@ -122,9 +122,10 @@ to - do
 
 - [ ] sleep  
 - [ ] eat  
-- [x] love  
+- [ ] love  
 - [ ] pray  
-- [ ]think
+- [ ] think
+- [x] exist
 
 
 
