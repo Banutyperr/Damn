@@ -112,7 +112,7 @@ james get in  heyy
 |car's|outside|
 
 
-jdfjafjkwje  
+[jdfjafjkwje](#smth) 
 oewkdowokd  
 dkewkew    
 
@@ -127,9 +127,7 @@ to - do
 - [x] exist
 
 
-
-no idea 
-: jdn3nd3i
+[cool](smth)
 
 
 
