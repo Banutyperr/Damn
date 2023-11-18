@@ -1,7 +1,7 @@
 #include <stdio.h>
 void concat (char result[] ,const char  str1[] , int n1 , const char str2[] , int n2  )
 {
-    for (int i = 0 ; i < n1 ; ++i)
+    for (int i = 0 ; i < n1 ; ++i) 
         result[i]=str1[i];
     for (int j = 0 ; j < n2 ; ++j)
         result[n1+j]= str2[j];
