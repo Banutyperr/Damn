@@ -1,67 +1,52 @@
-#include <stdio.h> 
-#include <stdbool.h>   
- 
-struct date
-{
-    int month;
-    int day;
-    int year;
+#include <stdio.h>
+
+
+struct entry {
+    int value;
+    struct entry *next;
 };
-struct date dateUpdate (struct date today)
-{
-    struct date tomorrow;
-    int numberIfDays(struct date d);
 
-    if (today.day != numberOfDays(today)) { //ordinary day 
-        tomorrow.day = today.day+1 ;
-        tomorrow.month = today.month;
-        tomorrow.year = today.year;
+
+struct entry *findEntry(struct entry *listPtr, int match) {
+    while (listPtr != (struct entry *) 0) {
+        if (listPtr->value == match)
+            return (listPtr);
+        else
+            listPtr = listPtr->next;
     }
-    else if (today.month == 12 ){ //the end of the month + the end of the year
-        tomorrow.day = 1 ;
-        tomorrow.month = 1;
-        tomorrow.year= today.year + 1;
-    }
-    else { //not 12 th month so it is just the end of the month
-        tomorrow.day = 1;
-        tomorrow.year = today.year;
-        tomorrow.month = today.month +1;
-    }
-    return tomorrow;//the whole structure
+    return (struct entry *) 0;
 }
-int numberOfDays (struct date d ){
-    int days ;
-    bool isLeapYear (struct date d);
-    const int DaysPerMonth[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-    if (isLeapYear && d.month ==2 )
-        days = 29 ;
+int main(void) {
+    struct entry *findEntry(struct entry *listPtr, int match);
+    struct entry n1, n2, n3;
+    struct entry *listPtr;
+
+    int search;
+
+    struct entry *listStart = &n1;
+
+
+    n1.value = 100;
+    n1.next = &n2;
+
+    n2.value = 200;
+    n2.next = &n3;
+
+    n3.value = 300;
+    n3.next = (struct entry *) 0;
+
+
+    printf("Enter value to locate : ");
+    scanf("%i", &search);
+
+    listPtr = findEntry(listStart, search);
+
+    if (listPtr != (struct entry *) 0)
+        printf("Found %i.\n", listPtr->value);
     else
-        days = daysPerMonth[d.month -1];
+        printf("Not found \n");
 
-    return days;
-}
-
-bool isLeapYear (struct date d){
-    bool leapYear;
-
-    if (  (d.year % 4 == 0 && d.year % 100 != 0) || d.year % 400==0)
-        leapYear=true;
-    else
-        leapYear=false;
-    return leapYear
-}
-
-
-int main(void ) {
-    struct date dateUpdate (dtruct date today);
-    struct date thisDay,nextDay;
-
-    printf ("Enter today's date (mm dd yyyy): ");
-    scanf ("%i%i%i",&thisDay.month,&thisDay.day,&thisDay.year);
-
-    nextDay=dateUpdate(thisDay);
-    printf("Tomorrow's date is %i/%i/%.2i.\n",nextDay.month,nextDay.day,nextDay.year %100);
 
     return 0;
 }
