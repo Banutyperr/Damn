@@ -4,7 +4,7 @@
 struct entry {
     int value;
     struct entry *next;
-};
+}; 
 
 
 struct entry *findEntry(struct entry *listPtr, int match) {
