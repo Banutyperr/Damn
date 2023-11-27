@@ -3,7 +3,7 @@
 
 
 struct entry {
-    char word[15];
+    char word[15]; 
     char definition[50];
 };
 
