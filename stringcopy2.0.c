@@ -2,7 +2,7 @@
 
 
 void copyString( char *to , char *from){
-    while(*from)//unless from do not empty
+    while(*from)//unless from do not reach the null character
         *to++ = *from++;//first make them equal then increment 
 
 
