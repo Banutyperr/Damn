@@ -1,6 +1,7 @@
 Just for fun 
 ============
-BTW MOST CODES ARE FROM [THIS BOOK](https://www.youtube.com/watch?v=HDN0Z9-yJmM](https://lshoshia.science.tsu.ge/C/Stephen%20G%20Kochan%20Programming%20in%20C%20%202005.pdf)  
+BTW MOST CODES ARE FROM [THIS BOOK](https://lshoshia.science.tsu.ge/C/Stephen%20G%20Kochan%20Programming%20in%20C%20%202005.pdf)  
+=============================================================================================
 Do not get it seriously[^1]
 -----------------------
 ### Wispers of are you sure  
