@@ -57,7 +57,7 @@ int main() {
 //no such thing as a type “pointer to bit field.
 //If just int is used in the declaration, it’s implementation dependent whether this is interpreted as a signed or unsigned value.To play it safe, use the explicit declarations signed int or unsigned int.
 // A special unnamed bit field of size 0 is used to force alignment on the next boundary.
-
+//a bit field of size 0 indicates that the compiler should start a new integer to store thr next field  that comes,so f.e if we were storing f1 and f2 in int A , then if came fs : 0 between line 9 and 10 it would mean that f3 ,type,index shold ve been stored not in A but in some other integer 
 
 
 
