@@ -23,7 +23,7 @@ int year  =  64;
 #define MAX(a,b)  ( ( ( a) > (b) ) ? (a) : (b) )//to make sure it is gonna work even if the a and b are expressions
 #define IS_LOWER_CASE(x)    ( ( (x) >= 'a' ) AND ( (x) <= 'z') )
 #define TO_UPPER(X)   ( IS_LOWER_CASE(X) ? (X) - 'a' + 'A' : (X))// it did not work when I wrote TO_UPPER (X)
-
+#define  debugPrintf(...)    printf ("Debug : " __VA_ARGS__);
 
 
 
@@ -84,6 +84,13 @@ int main() {
     a = FAKE_SQUARE(a);
     b = FAKE_SQUARE(b);
     c = FAKE_SQUARE(c);
+
+
+
+
+    debugPrintf("a = %i\n",a);
+    debugPrintf("b = %li\n",b);
+    debugPrintf("c = %f\n",c);
 
 
 
