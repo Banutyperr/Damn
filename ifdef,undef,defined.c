@@ -35,3 +35,10 @@ int main(void) {
     printf("%i\n",noname);
     return 0;
 }
+
+
+
+//if nen bawlayan her weyin axrina endif goymag lazim
+//undef undefines a defined value and it turnes out even if the defined value is before it
+// if defined(nese) === ifdef nese
+//ifndef  === !ifdef
