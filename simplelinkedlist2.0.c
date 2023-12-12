@@ -3,7 +3,7 @@
 int main() {
     struct entry {
         int value;
-        struct entry *next;
+        struct entry * next;
     };
 
     struct entry n1,n2,n3;
