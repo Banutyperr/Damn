@@ -13,7 +13,8 @@ int main(void)
    for (int i = 0; i<13;++i){
    while(num>=integer[i]){
    num-=integer[i];
-   printf("%s",rome[i]);}}
+   printf("%s",rome[i]);//her defe icindeki rome reqemin cixardir boyuden kiciye
+   }}
    
     return 0;
     
