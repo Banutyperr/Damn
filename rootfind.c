@@ -26,7 +26,6 @@ int main() {
 
 
    double discriminant = (b * b) - (4 * a * c) ;
-   printf("%lf\n",discriminant);
    if (discriminant < 0 ){
        printf("No real roots\n");
    }
