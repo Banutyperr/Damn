@@ -1,6 +1,6 @@
 Just for fun 
 ============
-btw, most of the code is from this [book](https://lshoshia.science.tsu.ge/C/Stephen%20G%20Kochan%20Programming%20in%20C%20%202005.pdf)  
+btw, most of the code is from this 
 =============================================================================================
 Do not get it seriously[^1]
 -----------------------
